@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+body header{
+    background-image: url('../images/back.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 818px;
+    border-top: solid 40px #af2024;
+    border-bottom: solid 33px #3f0002;
+}
+.fixed{
+    position: fixed;
+    top: 262px;
+    right: 0;
+   }
+.fixed a{
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: #850409;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    line-height: 50px;
+}
+.fixed a:before{
+    content: "\f39e";
+    font-family: Font Awesome\ 5 Brands;
+    display: inline-block;
+}
+.fixed a:last-of-type{
+    background-color: #98161b;
+}
+.fixed a:last-of-type:before{
+    content: "\f099";
+}
+header a{
+    position: relative;
+    top: -13px;
+    left: -70px;
+    z-index: 1;
+}
+header .logo_back{
+    background-color: #af2024;
+    height: 75px;
+    width: 279px;
+    border-right: solid 3px #0a0203;
+    position: relative;
+    top: 31px;
+    left: 340px;
+    z-index: 0;
+}
+.video_title{
+    height: 748px;
+    width: 710px;
+    position: relative;
+    top: 65px;
+    left: 50%;
+    margin-left: -374px;
+    background-color: white;
+}
+.video_title .section_head{
+    height: 70px;
+    width: 710px;
+    background-color: #98161b;
+    font-family: 'Arvo', serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    padding: 27px 18px;
+    box-sizing: border-box;
+    margin-bottom: 63px;
+}
+.video_title .container{
+    display: block;
+    margin: auto;
+    width: 567px;
+}
+.video_title .container .video{
+    width: 567px;
+    height: 346px;
+    background-color: #e7e7e7;
+    margin-bottom: 30px;
+    position: relative;
+}
+.video_title .container .video a{
+    position: absolute;
+    top: 50%;
+    margin-top: -27px;
+    left: 50%;
+    margin-left: -23.5px;
+    color: #98161b;
+    cursor: pointer;
+}
+.video_title .container h3{
+    font-family: 'Arvo', serif;
+    font-weight: bold;
+    color: #98161b;
+    font-size: 13px;
+}
+.video_title .container h3 span{
+    font-family: 'Arvo', serif;
+    font-weight: 400;
+    color: #7d7d7d;
+    font-size: 13px;
+}
+.video_title .container h3:after{
+    content: "";
+    display: block;
+    width: 40px;
+    border: dotted 2px #98161b;
+    margin: 16px 0 18px;
+}
+.video_title .container p{
+    font-family: 'Arvo', serif;
+    font-weight: 400;
+    color: #98161b;
+    font-size: 12px;
+}
+footer{
+    height: 454px;
+}
